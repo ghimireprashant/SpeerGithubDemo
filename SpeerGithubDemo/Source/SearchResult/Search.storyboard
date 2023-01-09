@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--User Search ResultVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="UserSearchResultVC" id="Y6W-OH-hqX" customClass="UserSearchResultVC" customModule="SpeerGithubDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="r7H-PW-6eY">
+                                <rect key="frame" x="0.0" y="47" width="390" height="763"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserSearchResultTVC" rowHeight="104" id="Ngl-gF-EAy" customClass="UserSearchResultTVC" customModule="SpeerGithubDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="390" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ngl-gF-EAy" id="4Ad-Zp-Bxf">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="104"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uew-hg-AkP">
+                                                    <rect key="frame" x="16" y="103.66666666666667" width="358" height="0.3333333333333286"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="0.5" id="zvO-O2-WKq"/>
+                                                    </constraints>
+                                                </view>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="C56-Op-qgz" customClass="CircularImageVIew" customModule="SpeerGithubDemo" customModuleProvider="target">
+                                                    <rect key="frame" x="8" y="8" width="64" height="64"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="64" id="5iN-5R-p3B"/>
+                                                        <constraint firstAttribute="width" secondItem="C56-Op-qgz" secondAttribute="height" multiplier="1:1" id="mTJ-6O-gll"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Gj-8f-SHs">
+                                                    <rect key="frame" x="80" y="41.666666666666664" width="302" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="C56-Op-qgz" firstAttribute="leading" secondItem="4Ad-Zp-Bxf" secondAttribute="leading" constant="8" id="5vv-KT-y2f"/>
+                                                <constraint firstItem="C56-Op-qgz" firstAttribute="top" secondItem="4Ad-Zp-Bxf" secondAttribute="top" constant="8" id="8fQ-vB-vJv"/>
+                                                <constraint firstAttribute="bottom" secondItem="uew-hg-AkP" secondAttribute="bottom" id="EV7-bg-KLp"/>
+                                                <constraint firstAttribute="trailing" secondItem="uew-hg-AkP" secondAttribute="trailing" constant="16" id="OxX-0G-zOQ"/>
+                                                <constraint firstItem="3Gj-8f-SHs" firstAttribute="centerY" secondItem="4Ad-Zp-Bxf" secondAttribute="centerY" id="Ui3-1I-MDa"/>
+                                                <constraint firstItem="uew-hg-AkP" firstAttribute="leading" secondItem="4Ad-Zp-Bxf" secondAttribute="leading" constant="16" id="Vge-4Q-Spb"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="C56-Op-qgz" secondAttribute="bottom" constant="8" id="d30-L0-Apj"/>
+                                                <constraint firstItem="3Gj-8f-SHs" firstAttribute="leading" secondItem="C56-Op-qgz" secondAttribute="trailing" constant="8" id="e7H-rS-eUj"/>
+                                                <constraint firstAttribute="trailing" secondItem="3Gj-8f-SHs" secondAttribute="trailing" constant="8" id="lxN-yE-qDc"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="userImageView" destination="C56-Op-qgz" id="RKi-CZ-6XW"/>
+                                            <outlet property="userNameLabel" destination="3Gj-8f-SHs" id="kNF-iR-vLb"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="OSR-PW-5gJ"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="Xz4-p7-5Qh"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="r7H-PW-6eY" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Poj-9a-KAB"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="r7H-PW-6eY" secondAttribute="trailing" id="SNt-qL-wJf"/>
+                            <constraint firstItem="r7H-PW-6eY" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="ghG-PW-GhJ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="r7H-PW-6eY" secondAttribute="bottom" id="jSW-qH-DeP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="r7H-PW-6eY" id="xUM-0s-z0y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.538461538461537" y="-17.061611374407583"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
