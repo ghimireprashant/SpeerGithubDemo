@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56744B8DC66396BEDC485B1B /* Pods_SpeerGithubDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD057811EBE23DB1EAF4C07 /* Pods_SpeerGithubDemoTests.framework */; };
+		713A07582F77D5D05919A663 /* Pods_SpeerGithubDemo_SpeerGithubDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93F49C03A71B9CC4232A618 /* Pods_SpeerGithubDemo_SpeerGithubDemoUITests.framework */; };
+		8F60D34A296B1BB700BFF621 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F60D349296B1BB700BFF621 /* GenericViewController.swift */; };
+		8F60D352296B1C2C00BFF621 /* Generic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F60D351296B1C2C00BFF621 /* Generic.storyboard */; };
+		8F60D354296B1D1F00BFF621 /* CircularImageVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F60D353296B1D1F00BFF621 /* CircularImageVIew.swift */; };
+		8F60D357296B29DB00BFF621 /* AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F60D356296B29DB00BFF621 /* AttributedString.swift */; };
+		8F60D359296B2C5200BFF621 /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F60D358296B2C5200BFF621 /* UITapGestureRecognizer+Extension.swift */; };
+		8F60D35B296B413300BFF621 /* GenericTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F60D35A296B413300BFF621 /* GenericTVC.swift */; };
+		8F60D35D296B42C300BFF621 /* GenericModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F60D35C296B42C300BFF621 /* GenericModel.swift */; };
+		8F60D35F296BBBB200BFF621 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F60D35E296BBBB200BFF621 /* UIView+Extension.swift */; };
 		8FC005332968C32C008B603A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC005322968C32C008B603A /* AppDelegate.swift */; };
-		8FC005352968C32C008B603A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC005342968C32C008B603A /* SceneDelegate.swift */; };
-		8FC005372968C32C008B603A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC005362968C32C008B603A /* ViewController.swift */; };
-		8FC0053A2968C32C008B603A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC005382968C32C008B603A /* Main.storyboard */; };
 		8FC0053C2968C32D008B603A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC0053B2968C32D008B603A /* Assets.xcassets */; };
 		8FC0053F2968C32D008B603A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC0053D2968C32D008B603A /* LaunchScreen.storyboard */; };
 		8FC0054A2968C32D008B603A /* SpeerGithubDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC005492968C32D008B603A /* SpeerGithubDemoTests.swift */; };
 		8FC005542968C32D008B603A /* SpeerGithubDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC005532968C32D008B603A /* SpeerGithubDemoUITests.swift */; };
 		8FC005562968C32D008B603A /* SpeerGithubDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC005552968C32D008B603A /* SpeerGithubDemoUITestsLaunchTests.swift */; };
+		8FC005742968C583008B603A /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC005722968C583008B603A /* UserViewController.swift */; };
+		8FC005752968C583008B603A /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FC005732968C583008B603A /* UserViewController.xib */; };
+		8FC005782968C7CE008B603A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC005772968C7CE008B603A /* Service.swift */; };
+		8FC0057A2968C801008B603A /* AppConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC005792968C801008B603A /* AppConfigurations.swift */; };
+		8FC0057C2968C85B008B603A /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0057B2968C85B008B603A /* ReuseIdentifiable.swift */; };
+		8FC005822968D2E4008B603A /* UserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC005812968D2E4008B603A /* UserUseCase.swift */; };
+		8FC005842968D332008B603A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC005832968D332008B603A /* UserModel.swift */; };
+		8FC005862968DEA8008B603A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC005852968DEA8008B603A /* UserViewModel.swift */; };
+		8FC005892968F6A2008B603A /* UserSearchResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC005882968F6A2008B603A /* UserSearchResultVC.swift */; };
+		8FC0058C2968F6BB008B603A /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC0058B2968F6BB008B603A /* Search.storyboard */; };
+		8FC0058E2968F85C008B603A /* UserSearchResultTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0058D2968F85C008B603A /* UserSearchResultTVC.swift */; };
+		8FC0059429690437008B603A /* UserSearchResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0059329690437008B603A /* UserSearchResponseModel.swift */; };
+		DD6EC1A24218B0DD56B26900 /* Pods_SpeerGithubDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207E5C7FA7884F79CAF35533 /* Pods_SpeerGithubDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +56,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		207E5C7FA7884F79CAF35533 /* Pods_SpeerGithubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeerGithubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD057811EBE23DB1EAF4C07 /* Pods_SpeerGithubDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeerGithubDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0A7CFDF91B224332724188 /* Pods-SpeerGithubDemo-SpeerGithubDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeerGithubDemo-SpeerGithubDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpeerGithubDemo-SpeerGithubDemoUITests/Pods-SpeerGithubDemo-SpeerGithubDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		703D00D3AF1F54C41F9F37EC /* Pods-SpeerGithubDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeerGithubDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SpeerGithubDemoTests/Pods-SpeerGithubDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F60D349296B1BB700BFF621 /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
+		8F60D351296B1C2C00BFF621 /* Generic.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Generic.storyboard; sourceTree = "<group>"; };
+		8F60D353296B1D1F00BFF621 /* CircularImageVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageVIew.swift; sourceTree = "<group>"; };
+		8F60D356296B29DB00BFF621 /* AttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedString.swift; sourceTree = "<group>"; };
+		8F60D358296B2C5200BFF621 /* UITapGestureRecognizer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+Extension.swift"; sourceTree = "<group>"; };
+		8F60D35A296B413300BFF621 /* GenericTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTVC.swift; sourceTree = "<group>"; };
+		8F60D35C296B42C300BFF621 /* GenericModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericModel.swift; sourceTree = "<group>"; };
+		8F60D35E296BBBB200BFF621 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		8F60D360296BE9C800BFF621 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		8FC0052F2968C32C008B603A /* SpeerGithubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeerGithubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC005322968C32C008B603A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8FC005342968C32C008B603A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8FC005362968C32C008B603A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8FC005392968C32C008B603A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FC0053B2968C32D008B603A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FC0053E2968C32D008B603A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FC005402968C32D008B603A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +79,23 @@
 		8FC0054F2968C32D008B603A /* SpeerGithubDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeerGithubDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC005532968C32D008B603A /* SpeerGithubDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeerGithubDemoUITests.swift; sourceTree = "<group>"; };
 		8FC005552968C32D008B603A /* SpeerGithubDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeerGithubDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8FC005722968C583008B603A /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		8FC005732968C583008B603A /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		8FC005772968C7CE008B603A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8FC005792968C801008B603A /* AppConfigurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurations.swift; sourceTree = "<group>"; };
+		8FC0057B2968C85B008B603A /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
+		8FC005812968D2E4008B603A /* UserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUseCase.swift; sourceTree = "<group>"; };
+		8FC005832968D332008B603A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		8FC005852968DEA8008B603A /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		8FC005882968F6A2008B603A /* UserSearchResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchResultVC.swift; sourceTree = "<group>"; };
+		8FC0058B2968F6BB008B603A /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		8FC0058D2968F85C008B603A /* UserSearchResultTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchResultTVC.swift; sourceTree = "<group>"; };
+		8FC0059329690437008B603A /* UserSearchResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchResponseModel.swift; sourceTree = "<group>"; };
+		9C0C40690FC8997E315D6D51 /* Pods-SpeerGithubDemo-SpeerGithubDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeerGithubDemo-SpeerGithubDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SpeerGithubDemo-SpeerGithubDemoUITests/Pods-SpeerGithubDemo-SpeerGithubDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD31219BBC7FAAB3BE184013 /* Pods-SpeerGithubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeerGithubDemo.release.xcconfig"; path = "Target Support Files/Pods-SpeerGithubDemo/Pods-SpeerGithubDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C74F302EAEFAC66287B77759 /* Pods-SpeerGithubDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeerGithubDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SpeerGithubDemoTests/Pods-SpeerGithubDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D93F49C03A71B9CC4232A618 /* Pods_SpeerGithubDemo_SpeerGithubDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeerGithubDemo_SpeerGithubDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E169A298FB94F149841308BE /* Pods-SpeerGithubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeerGithubDemo.debug.xcconfig"; path = "Target Support Files/Pods-SpeerGithubDemo/Pods-SpeerGithubDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6EC1A24218B0DD56B26900 /* Pods_SpeerGithubDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56744B8DC66396BEDC485B1B /* Pods_SpeerGithubDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +119,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713A07582F77D5D05919A663 /* Pods_SpeerGithubDemo_SpeerGithubDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49C44AD45E3A199B5BE55CC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				207E5C7FA7884F79CAF35533 /* Pods_SpeerGithubDemo.framework */,
+				D93F49C03A71B9CC4232A618 /* Pods_SpeerGithubDemo_SpeerGithubDemoUITests.framework */,
+				3DD057811EBE23DB1EAF4C07 /* Pods_SpeerGithubDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F60D348296B1B7400BFF621 /* GenericController */ = {
+			isa = PBXGroup;
+			children = (
+				8F60D34D296B1BD900BFF621 /* View */,
+				8F60D349296B1BB700BFF621 /* GenericViewController.swift */,
+				8F60D35C296B42C300BFF621 /* GenericModel.swift */,
+			);
+			path = GenericController;
+			sourceTree = "<group>";
+		};
+		8F60D34D296B1BD900BFF621 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F60D351296B1C2C00BFF621 /* Generic.storyboard */,
+				8F60D35A296B413300BFF621 /* GenericTVC.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8F60D34E296B1BE700BFF621 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FC0058B2968F6BB008B603A /* Search.storyboard */,
+				8FC0058D2968F85C008B603A /* UserSearchResultTVC.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8F60D350296B1BFC00BFF621 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FC005732968C583008B603A /* UserViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8F60D355296B29D100BFF621 /* SDKs */ = {
+			isa = PBXGroup;
+			children = (
+				8F60D353296B1D1F00BFF621 /* CircularImageVIew.swift */,
+				8F60D356296B29DB00BFF621 /* AttributedString.swift */,
+			);
+			path = SDKs;
+			sourceTree = "<group>";
+		};
 		8FC005262968C32C008B603A = {
 			isa = PBXGroup;
 			children = (
+				8F60D360296BE9C800BFF621 /* Readme.md */,
 				8FC005312968C32C008B603A /* SpeerGithubDemo */,
 				8FC005482968C32D008B603A /* SpeerGithubDemoTests */,
 				8FC005522968C32D008B603A /* SpeerGithubDemoUITests */,
 				8FC005302968C32C008B603A /* Products */,
+				ABB3C804A0E02B6030B538C7 /* Pods */,
+				49C44AD45E3A199B5BE55CC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +207,10 @@
 		8FC005312968C32C008B603A /* SpeerGithubDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8F60D355296B29D100BFF621 /* SDKs */,
+				8FC005762968C7A8008B603A /* Utilities */,
+				8FC005622968C33F008B603A /* Source */,
 				8FC005322968C32C008B603A /* AppDelegate.swift */,
-				8FC005342968C32C008B603A /* SceneDelegate.swift */,
-				8FC005362968C32C008B603A /* ViewController.swift */,
-				8FC005382968C32C008B603A /* Main.storyboard */,
 				8FC0053B2968C32D008B603A /* Assets.xcassets */,
 				8FC0053D2968C32D008B603A /* LaunchScreen.storyboard */,
 				8FC005402968C32D008B603A /* Info.plist */,
@@ -127,6 +235,63 @@
 			path = SpeerGithubDemoUITests;
 			sourceTree = "<group>";
 		};
+		8FC005622968C33F008B603A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8F60D348296B1B7400BFF621 /* GenericController */,
+				8FC005872968F65C008B603A /* SearchResult */,
+				8FC005632968C473008B603A /* Users */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8FC005632968C473008B603A /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				8FC005722968C583008B603A /* UserViewController.swift */,
+				8FC005812968D2E4008B603A /* UserUseCase.swift */,
+				8FC005832968D332008B603A /* UserModel.swift */,
+				8FC005852968DEA8008B603A /* UserViewModel.swift */,
+				8F60D350296B1BFC00BFF621 /* View */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		8FC005762968C7A8008B603A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8FC005772968C7CE008B603A /* Service.swift */,
+				8FC005792968C801008B603A /* AppConfigurations.swift */,
+				8FC0057B2968C85B008B603A /* ReuseIdentifiable.swift */,
+				8F60D358296B2C5200BFF621 /* UITapGestureRecognizer+Extension.swift */,
+				8F60D35E296BBBB200BFF621 /* UIView+Extension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8FC005872968F65C008B603A /* SearchResult */ = {
+			isa = PBXGroup;
+			children = (
+				8F60D34E296B1BE700BFF621 /* View */,
+				8FC005882968F6A2008B603A /* UserSearchResultVC.swift */,
+				8FC0059329690437008B603A /* UserSearchResponseModel.swift */,
+			);
+			path = SearchResult;
+			sourceTree = "<group>";
+		};
+		ABB3C804A0E02B6030B538C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E169A298FB94F149841308BE /* Pods-SpeerGithubDemo.debug.xcconfig */,
+				BD31219BBC7FAAB3BE184013 /* Pods-SpeerGithubDemo.release.xcconfig */,
+				6B0A7CFDF91B224332724188 /* Pods-SpeerGithubDemo-SpeerGithubDemoUITests.debug.xcconfig */,
+				9C0C40690FC8997E315D6D51 /* Pods-SpeerGithubDemo-SpeerGithubDemoUITests.release.xcconfig */,
+				703D00D3AF1F54C41F9F37EC /* Pods-SpeerGithubDemoTests.debug.xcconfig */,
+				C74F302EAEFAC66287B77759 /* Pods-SpeerGithubDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FC005592968C32D008B603A /* Build configuration list for PBXNativeTarget "SpeerGithubDemo" */;
 			buildPhases = (
+				6F7D9FC78752D05D8893AB71 /* [CP] Check Pods Manifest.lock */,
 				8FC0052B2968C32C008B603A /* Sources */,
 				8FC0052C2968C32C008B603A /* Frameworks */,
 				8FC0052D2968C32C008B603A /* Resources */,
+				BA2DDEB68EA26604CABAD562 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +318,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FC0055C2968C32D008B603A /* Build configuration list for PBXNativeTarget "SpeerGithubDemoTests" */;
 			buildPhases = (
+				5F34744C7B5CFE40E3D86CEA /* [CP] Check Pods Manifest.lock */,
 				8FC005412968C32D008B603A /* Sources */,
 				8FC005422968C32D008B603A /* Frameworks */,
 				8FC005432968C32D008B603A /* Resources */,
@@ -169,9 +337,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FC0055F2968C32D008B603A /* Build configuration list for PBXNativeTarget "SpeerGithubDemoUITests" */;
 			buildPhases = (
+				548652927B6AFC5B1D4BB77A /* [CP] Check Pods Manifest.lock */,
 				8FC0054B2968C32D008B603A /* Sources */,
 				8FC0054C2968C32D008B603A /* Frameworks */,
 				8FC0054D2968C32D008B603A /* Resources */,
+				EAC2F30C6662D65CF4416D1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +401,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F60D352296B1C2C00BFF621 /* Generic.storyboard in Resources */,
 				8FC0053F2968C32D008B603A /* LaunchScreen.storyboard in Resources */,
+				8FC005752968C583008B603A /* UserViewController.xib in Resources */,
 				8FC0053C2968C32D008B603A /* Assets.xcassets in Resources */,
-				8FC0053A2968C32C008B603A /* Main.storyboard in Resources */,
+				8FC0058C2968F6BB008B603A /* Search.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +425,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		548652927B6AFC5B1D4BB77A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeerGithubDemo-SpeerGithubDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F34744C7B5CFE40E3D86CEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeerGithubDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F7D9FC78752D05D8893AB71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeerGithubDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2DDEB68EA26604CABAD562 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeerGithubDemo/Pods-SpeerGithubDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeerGithubDemo/Pods-SpeerGithubDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeerGithubDemo/Pods-SpeerGithubDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC2F30C6662D65CF4416D1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeerGithubDemo-SpeerGithubDemoUITests/Pods-SpeerGithubDemo-SpeerGithubDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeerGithubDemo-SpeerGithubDemoUITests/Pods-SpeerGithubDemo-SpeerGithubDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeerGithubDemo-SpeerGithubDemoUITests/Pods-SpeerGithubDemo-SpeerGithubDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FC0052B2968C32C008B603A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FC005372968C32C008B603A /* ViewController.swift in Sources */,
 				8FC005332968C32C008B603A /* AppDelegate.swift in Sources */,
-				8FC005352968C32C008B603A /* SceneDelegate.swift in Sources */,
+				8FC0059429690437008B603A /* UserSearchResponseModel.swift in Sources */,
+				8FC005782968C7CE008B603A /* Service.swift in Sources */,
+				8F60D35D296B42C300BFF621 /* GenericModel.swift in Sources */,
+				8F60D354296B1D1F00BFF621 /* CircularImageVIew.swift in Sources */,
+				8FC005892968F6A2008B603A /* UserSearchResultVC.swift in Sources */,
+				8FC0058E2968F85C008B603A /* UserSearchResultTVC.swift in Sources */,
+				8F60D34A296B1BB700BFF621 /* GenericViewController.swift in Sources */,
+				8FC005742968C583008B603A /* UserViewController.swift in Sources */,
+				8F60D359296B2C5200BFF621 /* UITapGestureRecognizer+Extension.swift in Sources */,
+				8FC005862968DEA8008B603A /* UserViewModel.swift in Sources */,
+				8FC0057A2968C801008B603A /* AppConfigurations.swift in Sources */,
+				8F60D35F296BBBB200BFF621 /* UIView+Extension.swift in Sources */,
+				8F60D35B296B413300BFF621 /* GenericTVC.swift in Sources */,
+				8FC005822968D2E4008B603A /* UserUseCase.swift in Sources */,
+				8F60D357296B29DB00BFF621 /* AttributedString.swift in Sources */,
+				8FC0057C2968C85B008B603A /* ReuseIdentifiable.swift in Sources */,
+				8FC005842968D332008B603A /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +587,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8FC005382968C32C008B603A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8FC005392968C32C008B603A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8FC0053D2968C32D008B603A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +714,7 @@
 		};
 		8FC0055A2968C32D008B603A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E169A298FB94F149841308BE /* Pods-SpeerGithubDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,9 +725,8 @@
 				INFOPLIST_FILE = SpeerGithubDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,14 +734,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.prashantghimire.SpeerGithubDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8FC0055B2968C32D008B603A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD31219BBC7FAAB3BE184013 /* Pods-SpeerGithubDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,9 +756,8 @@
 				INFOPLIST_FILE = SpeerGithubDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,14 +765,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.prashantghimire.SpeerGithubDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		8FC0055D2968C32D008B603A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 703D00D3AF1F54C41F9F37EC /* Pods-SpeerGithubDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +797,7 @@
 		};
 		8FC0055E2968C32D008B603A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74F302EAEFAC66287B77759 /* Pods-SpeerGithubDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +818,7 @@
 		};
 		8FC005602968C32D008B603A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0A7CFDF91B224332724188 /* Pods-SpeerGithubDemo-SpeerGithubDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +837,7 @@
 		};
 		8FC005612968C32D008B603A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0C40690FC8997E315D6D51 /* Pods-SpeerGithubDemo-SpeerGithubDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

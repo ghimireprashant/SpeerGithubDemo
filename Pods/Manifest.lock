@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.6.2)
+  - ObjectMapper (4.2.0)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+  - SVProgressHUD (2.2.6):
+    - SVProgressHUD/Core (= 2.2.6)
+  - SVProgressHUD/Core (2.2.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - ObjectMapper
+  - SDWebImage (~> 4.0)
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ObjectMapper
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: de1d4dba816a19454329031156b8788692bcfa2c
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  SVProgressHUD: de812b4f0e1d65358f0064416473174ae619843f
+
+PODFILE CHECKSUM: 388aaf08356a4003d57c6e0a4a56b164323c769c
+
+COCOAPODS: 1.11.3
