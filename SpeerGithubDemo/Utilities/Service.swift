@@ -23,10 +23,10 @@ final class Service: Repository {
     private let session: URLSession
 
     func perform(request: URLRequest, completion: @escaping (Swift.Result<Data, Error>) -> Void) {
-        guard githubToken != "" else {
+//         guard githubToken != "" else {
 //            result = .failure(error)
-            return
-        }
+//             return
+//         }
         var injectedRequest = request
 //        injectedRequest.setValue("Accept", forHTTPHeaderField: "application/vnd.github+json")
 //        injectedRequest.setValue("Content-Type", forHTTPHeaderField: "application/json; charset=utf-8")
